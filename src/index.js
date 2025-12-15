@@ -1,7 +1,7 @@
 import fs from 'fs';
 import through2 from 'through2';
 import Promise from 'promise';
-import QunitHarness from 'qunit-harness';
+import QunitHarness from '@devexpress/qunit-harness';
 
 
 var readFile = Promise.denodeify(fs.readFile);
